@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import TMDBSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -21,6 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     window?.makeKeyAndVisible()
     let homeVC = WIZHomeRouter.assembleModule()
     window?.rootViewController = UINavigationController(rootViewController: homeVC)
+    
+    TMDBConfig.apikey = "b9574bd8993c346fd85bac7177f1e546"
     
     return true
   }
