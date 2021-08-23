@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		5904BF8826D0DF1700D6DF67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5904BF8726D0DF1700D6DF67 /* AppDelegate.swift */; };
-		5904BF8A26D0DF1700D6DF67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5904BF8926D0DF1700D6DF67 /* ViewController.swift */; };
-		5904BF8D26D0DF1700D6DF67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5904BF8B26D0DF1700D6DF67 /* Main.storyboard */; };
+		5904BF8A26D0DF1700D6DF67 /* WIZHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5904BF8926D0DF1700D6DF67 /* WIZHomeViewController.swift */; };
 		5904BF8F26D0DF2300D6DF67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5904BF8E26D0DF2300D6DF67 /* Assets.xcassets */; };
 		5904BF9226D0DF2300D6DF67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5904BF9026D0DF2300D6DF67 /* LaunchScreen.storyboard */; };
 		5904BF9D26D0DF2300D6DF67 /* movsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5904BF9C26D0DF2300D6DF67 /* movsTests.swift */; };
+		5904BFA826D0E54B00D6DF67 /* WIZHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5904BFA726D0E54B00D6DF67 /* WIZHomePresenter.swift */; };
+		5904BFAF26D0E6ED00D6DF67 /* WIZHomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5904BFAE26D0E6ED00D6DF67 /* WIZHomeModels.swift */; };
+		5904BFB126D0E71500D6DF67 /* WIZHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5904BFB026D0E71500D6DF67 /* WIZHomeInteractor.swift */; };
+		5904BFB326D0EB7000D6DF67 /* WIZHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5904BFB226D0EB7000D6DF67 /* WIZHomeRouter.swift */; };
+		59DB7B4826D3BFCA0040C44B /* WIZHomeInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DB7B4726D3BFCA0040C44B /* WIZHomeInteractorTest.swift */; };
+		59DB7B4A26D3C0EB0040C44B /* WIZHomePresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DB7B4926D3C0EB0040C44B /* WIZHomePresenterTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +33,19 @@
 /* Begin PBXFileReference section */
 		5904BF8426D0DF1700D6DF67 /* movs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = movs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5904BF8726D0DF1700D6DF67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5904BF8926D0DF1700D6DF67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5904BF8C26D0DF1700D6DF67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5904BF8926D0DF1700D6DF67 /* WIZHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WIZHomeViewController.swift; sourceTree = "<group>"; };
 		5904BF8E26D0DF2300D6DF67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5904BF9126D0DF2300D6DF67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5904BF9326D0DF2300D6DF67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5904BF9826D0DF2300D6DF67 /* movsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = movsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5904BF9C26D0DF2300D6DF67 /* movsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movsTests.swift; sourceTree = "<group>"; };
 		5904BF9E26D0DF2300D6DF67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5904BFA726D0E54B00D6DF67 /* WIZHomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WIZHomePresenter.swift; sourceTree = "<group>"; };
+		5904BFAE26D0E6ED00D6DF67 /* WIZHomeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WIZHomeModels.swift; sourceTree = "<group>"; };
+		5904BFB026D0E71500D6DF67 /* WIZHomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WIZHomeInteractor.swift; sourceTree = "<group>"; };
+		5904BFB226D0EB7000D6DF67 /* WIZHomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WIZHomeRouter.swift; sourceTree = "<group>"; };
+		59DB7B4726D3BFCA0040C44B /* WIZHomeInteractorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WIZHomeInteractorTest.swift; sourceTree = "<group>"; };
+		59DB7B4926D3C0EB0040C44B /* WIZHomePresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WIZHomePresenterTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +73,9 @@
 				5904BF9B26D0DF2300D6DF67 /* movsTests */,
 				5904BF8526D0DF1700D6DF67 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		5904BF8526D0DF1700D6DF67 /* Products */ = {
 			isa = PBXGroup;
@@ -78,8 +90,11 @@
 			isa = PBXGroup;
 			children = (
 				5904BF8726D0DF1700D6DF67 /* AppDelegate.swift */,
-				5904BF8926D0DF1700D6DF67 /* ViewController.swift */,
-				5904BF8B26D0DF1700D6DF67 /* Main.storyboard */,
+				5904BF8926D0DF1700D6DF67 /* WIZHomeViewController.swift */,
+				5904BFA726D0E54B00D6DF67 /* WIZHomePresenter.swift */,
+				5904BFB026D0E71500D6DF67 /* WIZHomeInteractor.swift */,
+				5904BFB226D0EB7000D6DF67 /* WIZHomeRouter.swift */,
+				5904BFAE26D0E6ED00D6DF67 /* WIZHomeModels.swift */,
 				5904BF8E26D0DF2300D6DF67 /* Assets.xcassets */,
 				5904BF9026D0DF2300D6DF67 /* LaunchScreen.storyboard */,
 				5904BF9326D0DF2300D6DF67 /* Info.plist */,
@@ -92,6 +107,8 @@
 			children = (
 				5904BF9C26D0DF2300D6DF67 /* movsTests.swift */,
 				5904BF9E26D0DF2300D6DF67 /* Info.plist */,
+				59DB7B4726D3BFCA0040C44B /* WIZHomeInteractorTest.swift */,
+				59DB7B4926D3C0EB0040C44B /* WIZHomePresenterTest.swift */,
 			);
 			path = movsTests;
 			sourceTree = "<group>";
@@ -179,7 +196,6 @@
 			files = (
 				5904BF9226D0DF2300D6DF67 /* LaunchScreen.storyboard in Resources */,
 				5904BF8F26D0DF2300D6DF67 /* Assets.xcassets in Resources */,
-				5904BF8D26D0DF1700D6DF67 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +213,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5904BF8A26D0DF1700D6DF67 /* ViewController.swift in Sources */,
+				5904BFA826D0E54B00D6DF67 /* WIZHomePresenter.swift in Sources */,
+				5904BFAF26D0E6ED00D6DF67 /* WIZHomeModels.swift in Sources */,
+				5904BFB326D0EB7000D6DF67 /* WIZHomeRouter.swift in Sources */,
+				5904BFB126D0E71500D6DF67 /* WIZHomeInteractor.swift in Sources */,
+				5904BF8A26D0DF1700D6DF67 /* WIZHomeViewController.swift in Sources */,
 				5904BF8826D0DF1700D6DF67 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,7 +226,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59DB7B4A26D3C0EB0040C44B /* WIZHomePresenterTest.swift in Sources */,
 				5904BF9D26D0DF2300D6DF67 /* movsTests.swift in Sources */,
+				59DB7B4826D3BFCA0040C44B /* WIZHomeInteractorTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +243,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5904BF8B26D0DF1700D6DF67 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5904BF8C26D0DF1700D6DF67 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5904BF9026D0DF2300D6DF67 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
